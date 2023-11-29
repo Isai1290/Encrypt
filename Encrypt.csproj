@@ -67,6 +67,13 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <None Include=".github\workflows\build.yml" />
+    <None Include=".vs\Encrypt\FileContentIndex\24f8bca8-f0b9-40a7-849f-353f045025ab.vsidx" />
+    <None Include=".vs\Encrypt\FileContentIndex\482ec25d-1bb3-4dc2-94d3-b507ead58526.vsidx" />
+    <None Include=".vs\Encrypt\FileContentIndex\cf045213-1c0b-46a4-9f9f-8a111ef105c9.vsidx" />
+    <None Include=".vs\Encrypt\FileContentIndex\ef7a3770-7487-4751-a771-e31cc59f6610.vsidx" />
+    <None Include=".vs\Encrypt\FileContentIndex\read.lock" />
+    <None Include=".vs\Encrypt\v17\.suo" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -79,6 +86,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include=".vs\Encrypt\FileContentIndex\merges\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
